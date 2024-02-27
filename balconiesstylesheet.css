@@ -1,4 +1,12 @@
-balconiesstylesheet.css
+body {
+    background-color:cadetblue;
+}
+h1{
+    text-align: center;
+    color: darkmagenta;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 p{
     text-align: center;
     color: darkmagenta;
