@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <!-- Google tag (gtag.js) -->
+  <head>
+    <style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #740e06;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(214, 13, 13, 0.861);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  </style>
+  </head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJJ4B0LDB5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -14,10 +30,11 @@
     <hr>
     <p>Hello and welcome to the official website for the Balconies!</p>
     <hr>
-    <a href="balconiesshoppage.html">Shop</a>
-    <a href="balconieshomepage.html">Home</a>
-    <a href="balconieslistenpage.html">Listen
-    </a>
+    <div class="grid-container">
+      <div class="grid-item"><a href="balconiesshoppage.html">Shop</a></div>
+      <div class="grid-item"><a href="balconieshomepage.html">Home</a></div>
+      <div class="grid-item"><a href="balconieslistenpage.html">Listen</a></div>  
+      </div>
     <hr>
     <img src="balconies24willbluebg.png" alt="Our Logo" width="150" height="150">
 

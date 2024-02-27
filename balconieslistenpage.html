@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #740e06;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(214, 13, 13, 0.861);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  </style>
+  </head>
   <body style="background-color:aqua; text-align:center">
     <h1>The Balconies</h1>
     <hr>
     <p>Here you can explore our music and videos.</p>
     <hr>
-    <a href="balconiesshoppage.html">Shop</a>
-    <a href="balconieshomepage.html">Home</a>
-    <a href="balconieslistenpage.html">Listen
-    </a>
+    <div class="grid-container">
+      <div class="grid-item"><a href="balconiesshoppage.html">Shop</a></div>
+      <div class="grid-item"><a href="balconieshomepage.html">Home</a></div>
+      <div class="grid-item"><a href="balconieslistenpage.html">Listen</a></div>  
+      </div>
     <hr>
     <a href="https://www.youtube.com/embed/n-wDyLlzJv0">Saturday Nights Alright</a>
     <img src="balconies24willbluebg.png" alt="Our Logo" width="150" height="150">
+    <iframe width="424" height="753" src="https://www.youtube.com/embed/aYMzkiCX4-g" title="The Balconies - Don&#39;t Let Me Down (Beatles Cover)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
   </body>
 </html>
