@@ -13,3 +13,22 @@ p{
     font-size: 30px;
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
+.container{
+    width: 20rem;
+    height:20rem;
+    background: white;
+    display: flex;
+    border-radius: 5px;
+    overflow-x: scroll;
+    scroll-snap-align: x mandatory;
+}
+
+.container div{
+    min-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    color: white;
+    scroll-snap-align: center;
+}
