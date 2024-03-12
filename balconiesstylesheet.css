@@ -18,7 +18,7 @@ p{
     height:20rem;
     background: white;
     display: flex;
-    border-radius: 5px;
+    border-radius: 25px;
     overflow-x: scroll;
     scroll-snap-align: x mandatory;
 }
